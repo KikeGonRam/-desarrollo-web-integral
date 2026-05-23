@@ -1,13 +1,13 @@
 {
   "name": "api-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "este es el proyecto de una api con node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "kikegonram",
   "license": "ISC",
   "type": "commonjs"
 }
