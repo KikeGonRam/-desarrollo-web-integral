@@ -1,15 +1,10 @@
-class User {
-    constructor(id, name) {
-        this.id = id;
-        this.name = name;
-    }
+import mongoose from "mongoose";
 
-    static createUser(name) {
-            return {
-                id: Date.now(),
-                name: name
-            }
-        }
-}
+const userSchema = new mongoose.Schema(
+  {
+    name: { type: String, required: true },
+  },
+  { timestamps: true }
+);
 
-export default User;
+export default mongoose.model("User", userSchema);
